@@ -13,7 +13,7 @@
     sudo mv apache-maven-3.9.6 maven
     sudo cd maven
 ```
-### Set Up Maven Environment Variables
+### Step 4 :- Set Up Maven Environment Variables
 ``` sudo vim /etc/profile.d/maven.sh ```
 #### Add the following lines to "maven.sh":-
    
