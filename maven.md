@@ -24,9 +24,9 @@
 ``` sudo chmod o+x /etc/profile.d/maven.sh```
 
 ### Load the environment variable
-```sudo source /etc/profile.d/maven.sh ```
+``` source /etc/profile.d/maven.sh ```
 ### Verify the Maven Installation
-``` sudo mvn --version ```
+``` mvn --version ```
 ### You should see output simillar to :-
 
 <h4>Apache Maven 3.8.6 (cecedd343002696d0abb50b32b541b8a6ba288f9)<br>
