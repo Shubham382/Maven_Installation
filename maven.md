@@ -16,7 +16,8 @@
 ### Set Up Maven Environment Variables
 ``` sudo vim /etc/profile.d/maven.sh ```
 #### Add the following lines to "maven.sh":-
-    ```export M2_HOME=/opt/maven
+    ```
+       export M2_HOME=/opt/maven
        export MAVEN_HOME=/opt/maven
        export PATH=${M2_HOME}/bin:${PATH}
        ```
@@ -35,3 +36,5 @@ Java version: 11.0.12, vendor: Amazon.com Inc.<br>
 Java home: /usr/lib/jvm/java-11-openjdk-11.0.12.7-0.amzn2.0.1.x86_64 <br>
 Default locale: en_US, platform encoding: UTF-8<br>
 OS name: "linux", version: "4.14.256-197.484.amzn2.x86_64", arch: "amd64", family: "unix" </h4><br>
+
+<h2><center>Maven is now installed and ready to use on your EC2 instance.</center> </h2>
