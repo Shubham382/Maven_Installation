@@ -8,10 +8,9 @@
 
 ### Step 3 :- Unzip Files
 ```
-    sudo unzip apache-maven-3.9.6-bin.zip /opt
+    sudo unzip apache-maven-3.9.6-bin.zip 
+    sudo mv apache-maven-3.9.6 /opt/maven
     sudo cd /opt
-    sudo mv apache-maven-3.9.6 maven
-    sudo cd maven
 ```
 ### Step 4 :- Set Up Maven Environment Variables
 ``` sudo vim /etc/profile.d/maven.sh ```
